@@ -1,0 +1,58 @@
+CREATE DATABASE Projeto2Ano
+GO
+
+
+USE Projeto2Ano
+
+CREATE TABLE Pais
+(
+Id_Pais INT PRIMARY KEY IDENTITY (1,1),
+Tag_Pais VARCHAR (3) UNIQUE NOT NULL,
+Nome_Pais VARCHAR (20)NOT NULL
+);
+
+CREATE TABLE Pontos 
+(
+Id_Pontos INT PRIMARY KEY IDENTITY (1,1),
+Nome VARCHAR(5) NOT NULL,
+Pais VARCHAR (3)NOT NULL,	
+Conta VARCHAR (20)NOT NULL,
+Pontuacao INT,
+
+CONSTRAINT FK_Pontos_Pais
+    FOREIGN KEY (Pais) REFERENCES Pais(Tag_Pais)
+);
+
+
+CREATE TABLE Provincias 
+(
+Id_Provincias INT PRIMARY KEY IDENTITY (1,1),
+Nome VARCHAR (20)Unique NOT NULL,
+Controlador VARCHAR(3),
+N_Tropas INT NOT NULL,
+Paz_War BIT NOT NULL
+
+CONSTRAINT FK_Provincias_Pais
+    FOREIGN KEY (Controlador) REFERENCES Pais(Tag_Pais)
+);
+
+
+
+INSERT INTO Pais (Tag_Pais, Nome_Pais) VALUES
+('EUS', 'União Europeia'),
+('FRC', 'Franca Comunista')
+
+
+INSERT INTO Provincias (Nome, Controlador, N_Tropas, Paz_War)
+VALUES ('Geneva', 'SUI', 1, 1),
+('Zurich', 'SUI',1,1),
+('Vienna', 'AUS',1,1),
+('Prague', 'CZE',1,1),
+('Saxónia', 'ALE',1,1),
+('Berlim', 'ALE',1,1),
+('Brandenburg', 'ALE',1,1)
+
+SELECT * FROM Pontos;
+SELECT * FROM Provincias;
+SELECT * FROM Pais; 
+
