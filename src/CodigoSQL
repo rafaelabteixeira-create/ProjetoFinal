@@ -36,6 +36,12 @@ CONSTRAINT FK_Provincias_Pais
     FOREIGN KEY (Controlador) REFERENCES Pais(Tag_Pais)
 );
 
+CREATE TABLE Contas 
+(
+Id_Pontos INT PRIMARY KEY IDENTITY (1,1),
+Nome VARCHAR(20) NOT NULL,
+Pass VARCHAR (20)NOT NULL,);
+
 
 
 INSERT INTO Pais (Tag_Pais, Nome_Pais) VALUES
@@ -55,4 +61,6 @@ VALUES ('Geneva', 'SUI', 1, 1),
 SELECT * FROM Pontos;
 SELECT * FROM Provincias;
 SELECT * FROM Pais; 
+SELECT * FROM Contas;
+
 
