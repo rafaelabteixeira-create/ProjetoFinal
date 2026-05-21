@@ -59,11 +59,17 @@
     <Compile Include="EscolhaPais.Designer.cs">
       <DependentUpon>EscolhaPais.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="FocoGER.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="FocoGER.Designer.cs">
+      <DependentUpon>FocoGER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MapaGER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapaGER.Designer.cs">
+      <DependentUpon>MapaGER.cs</DependentUpon>
     </Compile>
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
@@ -77,6 +83,7 @@
     <Compile Include="Criar.Designer.cs">
       <DependentUpon>Criar.cs</DependentUpon>
     </Compile>
+    <Compile Include="PontosProv.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Entrar.resx">
@@ -85,8 +92,11 @@
     <EmbeddedResource Include="EscolhaPais.resx">
       <DependentUpon>EscolhaPais.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="FocoGER.resx">
+      <DependentUpon>FocoGER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapaGER.resx">
+      <DependentUpon>MapaGER.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
@@ -95,19 +105,19 @@
       <DependentUpon>Criar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -121,7 +131,12 @@
     <Content Include="Bitmap1.bmp" />
     <Content Include="IMAGES\Lideres\FRA_leader.png" />
     <Content Include="IMAGES\Lideres\GER_Leader.png" />
-    <Content Include="IMAGES\transferir.png" />
+    <None Include="Resources\LinhaF2.png" />
+    <None Include="Resources\LinhaF1.png" />
+    <None Include="Resources\FlagEU0.png" />
+    <None Include="Resources\EU_flag.bmp" />
+    <Content Include="Resources\FalgEU.png" />
+    <None Include="Resources\Captura de ecrã 2026-05-14 113639.png" />
     <None Include="Resources\GER_Leader.png" />
     <None Include="Resources\FRA_leader.png" />
   </ItemGroup>

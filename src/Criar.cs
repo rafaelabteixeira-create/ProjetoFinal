@@ -79,22 +79,31 @@ namespace idea
                         }
                         else
                         {
+                            if (UserSQL.IndexOf(PassSQL) >= 0)
+                            {
 
-                            SqlCommand cmdInsert = new SqlCommand();
-                            cmdInsert.Connection = db;
-                            cmdInsert.CommandText = "insert into Contas (Nome,Pass) values (@nome, @pass)";
+                                SqlCommand cmdInsert = new SqlCommand();
+                                cmdInsert.Connection = db;
+                                cmdInsert.CommandText = "insert into Contas (Nome,Pass) values (@nome, @pass)";
 
-                            cmdInsert.Parameters.Add("@nome", SqlDbType.VarChar).Value = UserSQL;
-                            cmdInsert.Parameters.Add("@pass", SqlDbType.VarChar).Value = PassSQL;
+                                cmdInsert.Parameters.Add("@nome", SqlDbType.VarChar).Value = UserSQL;
+                                cmdInsert.Parameters.Add("@pass", SqlDbType.VarChar).Value = PassSQL;
 
 
-                            int recAfectados = cmdInsert.ExecuteNonQuery();
+                                int recAfectados = cmdInsert.ExecuteNonQuery();
 
-                            MessageBox.Show($"\n Foram Inseridos {recAfectados} registros !");
+                                MessageBox.Show($"\n Foram Inseridos {recAfectados} registros !");
+                                MapaF.Show();
+                                this.Hide();
+                            }
+                            else
+                            {
+
+                                MessageBox.Show($"\nErro: Já existe alguém com esse nome");
+                            }
                         }
                     }
-                    MapaF.Show();
-                    this.Hide();
+
                 }
                 catch (Exception ex)
                 {

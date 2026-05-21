@@ -60,11 +60,18 @@ namespace idea
             {
                 MessageBox.Show("Escolha um País");
             }
-            else if (escolha > 0) 
+            else if (escolha == 1)
             {
 
-                Form2 mapa = new Form2();
+                
+
+            }
+            else if (escolha == 2) 
+            {
+
+                MapaGER mapa = new MapaGER();
                 mapa.Show();
+                this.Close();
                 
             }
         }

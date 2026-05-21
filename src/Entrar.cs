@@ -55,7 +55,7 @@ namespace idea
 
                         int count = (int)cmd.ExecuteScalar();
 
-                        if (count > 0)
+                       if (count > 0)
                         {
                             MessageBox.Show("Login bem-sucedido!");
 
@@ -67,8 +67,6 @@ namespace idea
                         {
                             MessageBox.Show("Nome ou palavra-passe incorretos!");
                         }
-                        MapaF.Show();
-                        this.Hide();
                     }
                 }
             }
