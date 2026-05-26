@@ -49,14 +49,6 @@ INSERT INTO Pais (Tag_Pais, Nome_Pais) VALUES
 ('FRC', 'Franca Comunista')
 
 
-INSERT INTO Provincias (Nome, Controlador, N_Tropas, Paz_War)
-VALUES ('Geneva', 'SUI', 1, 1),
-('Zurich', 'SUI',1,1),
-('Vienna', 'AUS',1,1),
-('Prague', 'CZE',1,1),
-('Saxónia', 'ALE',1,1),
-('Berlim', 'ALE',1,1),
-('Brandenburg', 'ALE',1,1)
 
 SELECT * FROM Pontos;
 SELECT * FROM Provincias;
