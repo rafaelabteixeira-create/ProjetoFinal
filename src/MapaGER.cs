@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Media;
+using System.Data.SqlClient;
 using System.Runtime.ConstrainedExecution;
 using System.Threading;
 using System.Windows.Forms;
@@ -16,15 +17,27 @@ namespace idea
 
         private Dictionary<string, ProvinceData> provinces = new Dictionary<string, ProvinceData>();
         private List<ProvinceData> vizinhosAtivos = new List<ProvinceData>();
+        EscolhaLider escolhaLider = new EscolhaLider();
         private MapPanel mapPanel;
+
+        public static string connectionString = "Server = (localdb)\\MSSQLLocalDB; Database = Projeto2Ano; Trusted_Connection = True";
 
         private ProvinceData provinciasSelecionada = null;
 
         int turnos = 0;
         int limite = 0;
-        int estabilidade = 30;
+        int estabilidade = 40;
         int conta = 5;
         bool estabilidadeBotao = true;
+        bool DivBotao = false;
+        bool warW = false;
+        private bool warEventMostrado = false;
+        private bool euVictoryMostrado = false;
+        private bool liderescolhido = false;
+        private bool lim1 = false;
+        private bool lim2 = false;
+        private int n1 = 1;
+        private int n2 = 1;
 
         ClassDatabase db = new ClassDatabase();
 
@@ -40,6 +53,8 @@ namespace idea
             CriarProvincias();
             DefinirVizinhos();
             CriarMapaPanel();
+
+
 
             Stability.Text = estabilidade + "%";
 
@@ -69,6 +84,9 @@ namespace idea
 
         private void CriarProvincias()
         {
+
+
+
             provinces.Add("Corsica", new ProvinceData
             {
                 Name = "Corsica",
@@ -80,13 +98,14 @@ namespace idea
                 Vizinhos = new List<ProvinceData>()
             });
 
+
             provinces.Add("Paris", new ProvinceData
             {
                 Name = "Paris",
                 Points = pontosprov.ProvinciaParis,
                 CorP = Color.LightBlue,
                 CorOriginal = Color.LightBlue,
-                Value = 7,
+                Value = 3,
                 War = false,
                 Vizinhos = new List<ProvinceData>()
             });
@@ -97,7 +116,7 @@ namespace idea
                 Points = pontosprov.ProvinciaCalais,
                 CorP = Color.LightBlue,
                 CorOriginal = Color.LightBlue,
-                Value = 3,
+                Value = 2,
                 War = false,
                 Vizinhos = new List<ProvinceData>()
             });
@@ -240,7 +259,7 @@ namespace idea
                 Points = pontosprov.ProvinciaBruxelas,
                 CorP = Color.LightYellow,
                 CorOriginal = Color.LightYellow,
-                Value = 0,
+                Value = 4,
                 War = false,
                 Vizinhos = new List<ProvinceData>()
             });
@@ -262,7 +281,7 @@ namespace idea
                 Points = pontosprov.ProvinciaLiege,
                 CorP = Color.LightYellow,
                 CorOriginal = Color.LightYellow,
-                Value = 0,
+                Value = 3,
                 War = false,
                 Vizinhos = new List<ProvinceData>()
             });
@@ -328,7 +347,7 @@ namespace idea
                 Points = pontosprov.ProvinciaSulRhine,
                 CorP = Color.LightGray,
                 CorOriginal = Color.LightGray,
-                Value = 15,
+                Value = 6,
                 War = false,
                 Vizinhos = new List<ProvinceData>()
             });
@@ -372,7 +391,7 @@ namespace idea
                 Points = pontosprov.ProvinciaBaden,
                 CorP = Color.LightGray,
                 CorOriginal = Color.LightGray,
-                Value = 0,
+                Value = 2,
                 War = false,
                 Vizinhos = new List<ProvinceData>()
             });
@@ -383,7 +402,7 @@ namespace idea
                 Points = pontosprov.ProvinciaDresden,
                 CorP = Color.LightGray,
                 CorOriginal = Color.LightGray,
-                Value = 0,
+                Value = 4,
                 War = false,
                 Vizinhos = new List<ProvinceData>()
             });
@@ -416,7 +435,7 @@ namespace idea
                 Points = pontosprov.ProvinciaKiel,
                 CorP = Color.LightGray,
                 CorOriginal = Color.LightGray,
-                Value = 0,
+                Value = 1,
                 War = false,
                 Vizinhos = new List<ProvinceData>()
             });
@@ -427,7 +446,7 @@ namespace idea
                 Points = pontosprov.ProvinciaHamburg,
                 CorP = Color.LightGray,
                 CorOriginal = Color.LightGray,
-                Value = 0,
+                Value = 2,
                 War = false,
                 Vizinhos = new List<ProvinceData>()
             });
@@ -438,7 +457,7 @@ namespace idea
                 Points = pontosprov.ProvinciaBerlin,
                 CorP = Color.LightGray,
                 CorOriginal = Color.LightGray,
-                Value = 0,
+                Value = 1,
                 War = false,
                 Vizinhos = new List<ProvinceData>()
             });
@@ -509,6 +528,10 @@ namespace idea
                 Vizinhos = new List<ProvinceData>()
             });
         }
+
+
+
+
         private void DefinirVizinhos()
         {
             provinces["Paris"].Vizinhos.Add(provinces["Calais"]);
@@ -816,18 +839,33 @@ namespace idea
                                 if (limite >= 3)
                                 {
                                     MessageBox.Show("Só pode mover 3 casas");
+                                    provinciasSelecionada = null;
+                                    mapPanel.Invalidate();
                                 }
                                 else
                                 {
-                                    db.Batalha(provinciasSelecionada, prov);
+                                    if (prov.CorP == Color.LightGray && provinciasSelecionada.CorP == Color.LightGray)
+                                    {
+                                        prov.Value = provinciasSelecionada.Value + prov.Value;
+                                        provinciasSelecionada.Value = 0;
+                                        mapPanel.Invalidate();
+                                        limite++;
+                                    }
+                                    else
+                                    {
+                                        db.Batalha(provinciasSelecionada, prov);
 
-                                    provinciasSelecionada = null;
-                                    vizinhosAtivos.Clear();
+                                        provinciasSelecionada = null;
+                                        vizinhosAtivos.Clear();
 
-                                    mapPanel.Invalidate();
-                                    limite++;
+                                        mapPanel.Invalidate();
+                                        limite++;
+                                    }
+
+
+
                                 }
-                                return;
+
                             }
                         }
                         else
@@ -841,6 +879,8 @@ namespace idea
                             provinciasSelecionada = prov;
 
                             vizinhosAtivos = prov.Vizinhos.ToList();
+
+
                         }
                         else
                         {
@@ -862,9 +902,16 @@ namespace idea
         private void button3_Click(object sender, EventArgs e)
         {
             DialogResult x = MessageBox.Show("Quer mesmo passar o turno ?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-            SoundPlayer HinoEU = new SoundPlayer(Properties.Resources.EU_Anthem);
+            SoundPlayer HinoEU = new SoundPlayer(Properties.Resources.War_EU_W);
+            SoundPlayer SuperWar = new SoundPlayer(Properties.Resources.War_EU_M);
+
+
+
+
+
             EU_Victory_Screen E_W_Screen = new EU_Victory_Screen();
-            bool warW = false;
+            Europe_War E_War_Screen = new Europe_War();
+
             if (x == DialogResult.Yes)
             {
                 turnos = db.contadorT(turnos);
@@ -872,8 +919,41 @@ namespace idea
                 estabilidade = db.Destabilizador(estabilidade);
 
                 limite = 0;
+                if (db.Conf(1, 0) == 1)
+                {
+                    pictureBox2.Image = Properties.Resources.FlagEUON;
+                }
+                if (db.Conf(2, 0) == 1 && liderescolhido == false)
+                {
+                    escolhaLider.ShowDialog();
+                }
+                if (liderescolhido == false)
+                {
+                    if (escolhaLider.escolha == 1)
+                    {
+                        Lider.Image = Properties.Resources.Ursula_Portrait;
+                        estabilidade += 20;
+                        liderescolhido = true;
+                    }
+                    else if (escolhaLider.escolha == 2)
+                    {
+                        Lider.Image = Properties.Resources.guhnther_portrait;
+                        liderescolhido = true;
+                    }
+                    else if (escolhaLider.escolha == 3)
+                    {
+                        Lider.Image = Properties.Resources.Klaus_portrait;
+                        estabilidade -= 30;
+                        liderescolhido = true;
+                    }
+                }
                 foreach (var prov in provinces.Values)
                 {
+                    if (prov.CorP == Color.LightBlue && warW == true)
+                    {
+                        prov.CorP = Color.LightGray;
+                        mapPanel.Invalidate();
+                    }
                     if (prov.Name == "Dinamarca")
                     {
                         if (db.Conf(3, 0) == 1)
@@ -882,7 +962,7 @@ namespace idea
                             mapPanel.Invalidate();
 
                         }
-                        
+
                     }
                     if (prov.Name == "Austria")
                     {
@@ -892,52 +972,209 @@ namespace idea
                             mapPanel.Invalidate();
 
                         }
-                        
+
                     }
                     if (db.Conf(4, 0) == 1)
                     {
                         if (prov.CorP == Color.LightBlue)
                         {
                             prov.War = true;
+
+
+
+                        }
+                    }
+                    if (db.Conf(5, 0) == 1)
+                    {
+                        if (prov.CorP == Color.LightYellow)
+                        {
+                            prov.War = true;
+                        }
+                        else if (prov.CorP == Color.DarkOrange)
+                        {
+                            prov.War = true;
+                        }
+                        else if (prov.CorP == Color.CornflowerBlue)
+                        {
+                            prov.War = true;
                         }
                     }
 
-                    if (prov.Name == "Paris" && prov.CorP == Color.LightGray && warW == false)
+                    if (escolhaLider.escolha == 2)
                     {
-                        HinoEU.Play();
-                        E_W_Screen.Show();
+                        if (prov.Name == "Berlim" && prov.CorP == Color.LightGray)
+                        {
+                            prov.Value += 2;
+                            mapPanel.Invalidate();
+                        }
+                    }
+                    else if (escolhaLider.escolha == 3)
+                    {
+                        if (prov.Name == "Geneva")
+                        {
+                            prov.CorP = Color.LightGray;
+                            mapPanel.Invalidate();
+                        }
+                        else if (prov.Name == "Berne")
+                        {
+                            prov.CorP = Color.LightGray;
+                            mapPanel.Invalidate();
+                        }
+                    }
+
+
+                    if (prov.Name == "Paris" && prov.CorP == Color.LightGray)
+                    {
                         warW = true;
-
                     }
-
-                    if (prov.CorP == Color.LightBlue && warW == true)
-                    {
-                        prov.CorP = Color.LightGray;
-                    }
-
-
                 }
-
-            }
-
-            Stability.Text = estabilidade + "%";
-            if (db.Conf(0, 1) == 1)
-            {
-                pictureBox2.Image = Properties.Resources.FlagEUON;
-                pictureBox2.Invalidate();
-
-            }
-            if (estabilidadeBotao == false)
-            {
-                conta--;
-                if (conta < 0)
+                if (warW == true && euVictoryMostrado == false)
                 {
-                    estabilidadeBotao = true;
+                    HinoEU.Play();
+                    E_W_Screen.ShowDialog();
+                    euVictoryMostrado = true;
                 }
+
+                if (db.Conf(0, 1) == 1 && lim1 == false)
+                {
+                    estabilidade = estabilidade + 44;
+                    lim1 = true;
+                    estabilidade += 20;
+
+                }
+                else if (db.Conf(1, 1) == 1 && lim2 == false)
+                {
+                    estabilidade += 45;
+                    lim2 = true;
+                }
+                if (estabilidadeBotao == false)
+                {
+                    conta--;
+                    if (conta < 0)
+                    {
+                        estabilidadeBotao = true;
+                    }
+                }
+
+
+
+                if (estabilidade >= 100)
+                {
+                    estabilidade = 100;
+                }
+                Stability.Text = estabilidade + "%";
+                try
+                {
+                    if (db.Conf(4, 0) == 1 && warEventMostrado == false)
+                    {   
+                        SuperWar.Play();
+                        E_War_Screen.ShowDialog();
+                        warEventMostrado = true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                if (estabilidade < 0)
+                {
+                    MessageBox.Show("Perdeu, a população rebeliou-se contra si");
+                    Application.Exit();
+                }
+                DivBotao = false;
+
+
+
+                 try
+                  {
+                      GuardarProvincias(provinces);
+                  }
+                  catch (Exception ex)
+                  {
+                      MessageBox.Show($"\nErro: {ex.Message}");
+                  }
+
             }
+
+
         }
 
 
+
+        public void CarregarProvincias(Dictionary<string, ProvinceData> provinces)
+        {
+            try
+            {
+                using (var conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    string sql = "SELECT Nome, Controlador, N_Tropas, Paz_War FROM Provincias";
+
+                    using (var cmd = new SqlCommand(sql, conn))
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            string nome = reader.GetString(0);
+                            string controlador = reader.IsDBNull(1) ? null : reader.GetString(1);
+                            int tropas = reader.GetInt32(2);
+                            bool emGuerra = reader.GetBoolean(3);
+
+                            if (provinces.TryGetValue(nome, out ProvinceData p))
+                            {
+                                p.Value = tropas;
+                                p.War = emGuerra;
+                                p.Controlador = controlador;
+
+                                if (controlador != null)
+                                {
+                                    Color cor = db.TagParaCor(controlador);
+                                    p.CorP = cor;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"\nErro: {ex.Message}");
+            }
+
+        }
+       public void GuardarProvincias(Dictionary<string, ProvinceData> provinces)
+        {
+            using (var conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                using (var transaction = conn.BeginTransaction())
+                {
+                    string sql = @"UPDATE Provincias 
+                           SET Controlador = @Controlador, 
+                               N_Tropas = @N_Tropas, 
+                               Paz_War = @Paz_War 
+                           WHERE Nome = @Nome";
+
+                    foreach (var kvp in provinces)              
+                    {
+                        string nomeChave = kvp.Key;              
+                        ProvinceData p = kvp.Value;
+                        string tag = db.CorParaTag(p.CorP);
+
+                        using (var cmd = new SqlCommand(sql, conn, transaction))
+                        {
+                            cmd.Parameters.AddWithValue("@Nome", nomeChave);  
+                            cmd.Parameters.AddWithValue("@Controlador", (object)tag ?? DBNull.Value);
+                            cmd.Parameters.AddWithValue("@N_Tropas", p.Value);
+                            cmd.Parameters.AddWithValue("@Paz_War", p.War);
+                            cmd.ExecuteNonQuery();
+                        }
+                    }
+
+                    transaction.Commit();   
+                }
+            }
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -986,6 +1223,42 @@ namespace idea
 
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ProvinceData provinceData = new ProvinceData();
+            if (DivBotao == false)
+            {
+                foreach (var prov in provinces.Values)
+                {
+                    if (prov.Name == "Berlim")
+                    {
+                        prov.Value += 2;
+                    }
+
+                    if (prov.Name == "Strasbourg")
+                    {
+                        prov.Value += 2;
+                    }
+                    else if (prov.Name == "Metz")
+                    {
+                        prov.Value += 2;
+                    }
+                    mapPanel.Invalidate();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Só pode treinar 2 divisões por turno ");
+            }
+            DivBotao = true;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            CarregarProvincias(provinces);
+            mapPanel.Invalidate();
+        }
     }
 
 
@@ -999,6 +1272,8 @@ namespace idea
                           ControlStyles.OptimizedDoubleBuffer, true);
         }
     }
+
+
     public class ProvinceData
     {
         public string Name { get; set; }
@@ -1010,4 +1285,5 @@ namespace idea
         public List<ProvinceData> Vizinhos { get; set; }
         public bool War;
     }
+
 }

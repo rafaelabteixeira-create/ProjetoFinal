@@ -79,7 +79,7 @@ namespace idea
                         }
                         else
                         {
-                            if (UserSQL.IndexOf(PassSQL) >= 0)
+                            if (UserSQL.IndexOf(PassSQL) <= 0)
                             {
 
                                 SqlCommand cmdInsert = new SqlCommand();

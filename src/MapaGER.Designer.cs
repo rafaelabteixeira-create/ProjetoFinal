@@ -44,6 +44,8 @@
             this.button5 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Lider)).BeginInit();
@@ -67,9 +69,9 @@
             // 
             this.Focu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(76)))), ((int)(((byte)(125)))));
             this.Focu.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Focu.Location = new System.Drawing.Point(289, -2);
+            this.Focu.Location = new System.Drawing.Point(280, -2);
             this.Focu.Name = "Focu";
-            this.Focu.Size = new System.Drawing.Size(497, 103);
+            this.Focu.Size = new System.Drawing.Size(538, 103);
             this.Focu.TabIndex = 2;
             this.Focu.Text = "Escolha um Fóco";
             this.Focu.UseVisualStyleBackColor = false;
@@ -80,7 +82,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.button2.Location = new System.Drawing.Point(1108, 7);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(73, 86);
+            this.button2.Size = new System.Drawing.Size(73, 56);
             this.button2.TabIndex = 4;
             this.button2.Text = "Sair";
             this.button2.UseVisualStyleBackColor = false;
@@ -100,9 +102,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::idea.Properties.Resources.Captura_de_ecrã_2026_05_14_113639;
-            this.pictureBox2.Location = new System.Drawing.Point(165, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(119, 7);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(118, 71);
+            this.pictureBox2.Size = new System.Drawing.Size(135, 82);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
@@ -121,7 +123,7 @@
             // Lider
             // 
             this.Lider.Image = global::idea.Properties.Resources.GER_Leader;
-            this.Lider.Location = new System.Drawing.Point(40, -2);
+            this.Lider.Location = new System.Drawing.Point(12, -2);
             this.Lider.Name = "Lider";
             this.Lider.Size = new System.Drawing.Size(80, 103);
             this.Lider.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -217,6 +219,28 @@
             this.button4.TabIndex = 16;
             this.button4.Text = "Adicionar 2 Divisões";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(62)))), ((int)(((byte)(37)))));
+            this.label3.Location = new System.Drawing.Point(44, 293);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(201, 13);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "Mais divisões iram defender o nosso país";
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button6.Location = new System.Drawing.Point(1108, 69);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(73, 24);
+            this.button6.TabIndex = 18;
+            this.button6.Text = "Carregar";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // MapaGER
             // 
@@ -224,6 +248,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1182, 1061);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button5);
@@ -271,5 +297,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button6;
     }
 }

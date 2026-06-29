@@ -36,42 +36,44 @@ namespace idea
 
         private void button1_Click(object sender, EventArgs e)
         {
-           Form3 MapaF = new Form3();
+            Form3 MapaF = new Form3();
             try
             {
-                /* string UserSQL = textBoxUser.Text;
-                 string PassSQL = textBoxPass.Text;
+                string UserSQL = textBoxUser.Text;
+                string PassSQL = textBoxPass.Text;
 
-                 using (SqlConnection db = new SqlConnection(ClassDatabase.connectionString))
-                 {
-                     db.Open();
+                using (SqlConnection db = new SqlConnection(ClassDatabase.connectionString))
+                {
+                    db.Open();
 
-                     string query = "SELECT COUNT(*) FROM Contas WHERE Nome = @nome AND Pass = @pass";
+                    string query = "SELECT COUNT(*) FROM Contas WHERE Nome = @nome AND Pass = @pass";
 
-                     using (SqlCommand cmd = new SqlCommand(query, db))
-                     {
-                         cmd.Parameters.Add("@nome", SqlDbType.VarChar).Value = UserSQL;
-                         cmd.Parameters.Add("@pass", SqlDbType.VarChar).Value = PassSQL;
+                    using (SqlCommand cmd = new SqlCommand(query, db))
+                    {
+                        cmd.Parameters.Add("@nome", SqlDbType.VarChar).Value = UserSQL;
+                        cmd.Parameters.Add("@pass", SqlDbType.VarChar).Value = PassSQL;
 
-                         int count = (int)cmd.ExecuteScalar();
+                        int count = (int)cmd.ExecuteScalar();
 
-                         if (count > 0)
-                         {*/
-                MessageBox.Show("Login bem-sucedido!");
+                        if (count > 0)
+                        {
+                            MessageBox.Show("Login bem-sucedido!");
 
 
-                MapaF.Show();
-                this.Hide();
+                            MapaF.Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Nome ou palavra-passe incorretos!");
+                        }
+                    }
+
+
+                }
             }
-            /* }
-             else
-             {
-                 MessageBox.Show("Nome ou palavra-passe incorretos!");
-             }
-         }
-     }
- }
-*/
+
+
             catch (Exception ex)
             {
                 MessageBox.Show($"\nErro: {ex.Message}");

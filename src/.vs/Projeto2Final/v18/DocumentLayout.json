@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Projeto2Final||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\eu_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:eu_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\focofra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:focofra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|c:\\users\\rafae\\onedrive - escola digital\\ambiente de trabalho\\idea\\focofra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:focofra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\eu_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:eu_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\mapafra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:mapafra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\mapager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:mapager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\classdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:classdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\mapager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:mapager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\focoger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:focoger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\pontosprov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:pontosprov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|c:\\users\\rafae\\onedrive - escola digital\\ambiente de trabalho\\idea\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MapaFRA.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaFRA.cs",
+              "RelativeDocumentMoniker": "MapaFRA.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaFRA.cs",
+              "RelativeToolTip": "MapaFRA.cs",
+              "ViewState": "AgIAACUEAAAAAAAAAAAQwEIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T17:21:10.258Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FocoFRA.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FocoFRA.cs",
+              "RelativeDocumentMoniker": "FocoFRA.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FocoFRA.cs",
+              "RelativeToolTip": "FocoFRA.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T17:20:37.698Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FocoFRA.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FocoFRA.cs",
+              "RelativeDocumentMoniker": "FocoFRA.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FocoFRA.cs [Design]",
+              "RelativeToolTip": "FocoFRA.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T13:56:25.11Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Projeto2Final",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\Projeto2Final.csproj",
+              "RelativeDocumentMoniker": "Projeto2Final.csproj",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\Projeto2Final.csproj",
+              "RelativeToolTip": "Projeto2Final.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-28T19:51:33.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClassDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\ClassDatabase.cs",
+              "RelativeDocumentMoniker": "ClassDatabase.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\ClassDatabase.cs",
+              "RelativeToolTip": "ClassDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T19:11:46.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MapaGER.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaGER.cs",
+              "RelativeDocumentMoniker": "MapaGER.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaGER.cs",
+              "RelativeToolTip": "MapaGER.cs",
+              "ViewState": "AgIAAJADAAAAAAAAAAAAAJkDAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T19:08:03.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EU_Victory_Screen.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\EU_Victory_Screen.cs",
+              "RelativeDocumentMoniker": "EU_Victory_Screen.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\EU_Victory_Screen.cs",
+              "RelativeToolTip": "EU_Victory_Screen.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T15:52:59.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EU_Victory_Screen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\EU_Victory_Screen.cs",
+              "RelativeDocumentMoniker": "EU_Victory_Screen.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\EU_Victory_Screen.cs [Design]",
+              "RelativeToolTip": "EU_Victory_Screen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T15:52:57.847Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FocoGER.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FocoGER.cs",
+              "RelativeDocumentMoniker": "FocoGER.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FocoGER.cs [Design]",
+              "RelativeToolTip": "FocoGER.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T12:12:45.613Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MapaGER.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaGER.cs",
+              "RelativeDocumentMoniker": "MapaGER.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaGER.cs [Design]",
+              "RelativeToolTip": "MapaGER.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T19:08:02.502Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PontosProv.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\PontosProv.cs",
+              "RelativeDocumentMoniker": "PontosProv.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\PontosProv.cs",
+              "RelativeToolTip": "PontosProv.cs",
+              "ViewState": "AgIAAPQBAAAAAAAAAAAQwAUCAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T19:07:55.146Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

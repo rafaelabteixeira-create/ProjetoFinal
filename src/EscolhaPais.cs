@@ -63,14 +63,16 @@ namespace idea
             else if (escolha == 1)
             {
 
-                
+                MapaFRA mapa1 = new MapaFRA();
+                mapa1.Show();
+                this.Close();
 
             }
             else if (escolha == 2) 
             {
 
-                MapaGER mapa = new MapaGER();
-                mapa.Show();
+                MapaGER mapa2 = new MapaGER();
+                mapa2.Show();
                 this.Close();
                 
             }

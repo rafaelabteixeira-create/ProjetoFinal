@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,7 +16,8 @@ namespace idea
         public EU_Victory_Screen()
         {
             InitializeComponent();
-            this.MaximizeBox = false;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            SoundPlayer HinoEU = new SoundPlayer(Properties.Resources.War_EU_W);
         }
 
         private void EU_Victory_Screen_Load(object sender, EventArgs e)
@@ -50,7 +52,7 @@ namespace idea
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
     }
 }

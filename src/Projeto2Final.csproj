@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -59,17 +61,53 @@
     <Compile Include="EscolhaPais.Designer.cs">
       <DependentUpon>EscolhaPais.cs</DependentUpon>
     </Compile>
+    <Compile Include="Europe_War.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Europe_War.Designer.cs">
+      <DependentUpon>Europe_War.cs</DependentUpon>
+    </Compile>
     <Compile Include="EU_Victory_Screen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EU_Victory_Screen.Designer.cs">
       <DependentUpon>EU_Victory_Screen.cs</DependentUpon>
     </Compile>
+    <Compile Include="FocoFRA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FocoFRA.Designer.cs">
+      <DependentUpon>FocoFRA.cs</DependentUpon>
+    </Compile>
     <Compile Include="FocoGER.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FocoGER.Designer.cs">
       <DependentUpon>FocoGER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EscolhaLider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EscolhaLider.Designer.cs">
+      <DependentUpon>EscolhaLider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FranceWar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FranceWar.Designer.cs">
+      <DependentUpon>FranceWar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="France_Victory_Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="France_Victory_Screen.Designer.cs">
+      <DependentUpon>France_Victory_Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MapaFRA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapaFRA.Designer.cs">
+      <DependentUpon>MapaFRA.cs</DependentUpon>
     </Compile>
     <Compile Include="MapaGER.cs">
       <SubType>Form</SubType>
@@ -98,11 +136,29 @@
     <EmbeddedResource Include="EscolhaPais.resx">
       <DependentUpon>EscolhaPais.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Europe_War.resx">
+      <DependentUpon>Europe_War.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EU_Victory_Screen.resx">
       <DependentUpon>EU_Victory_Screen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FocoFRA.resx">
+      <DependentUpon>FocoFRA.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FocoGER.resx">
       <DependentUpon>FocoGER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EscolhaLider.resx">
+      <DependentUpon>EscolhaLider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FranceWar.resx">
+      <DependentUpon>FranceWar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="France_Victory_Screen.resx">
+      <DependentUpon>France_Victory_Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapaFRA.resx">
+      <DependentUpon>MapaFRA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MapaGER.resx">
       <DependentUpon>MapaGER.cs</DependentUpon>
@@ -118,6 +174,7 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -140,6 +197,10 @@
     <Content Include="Bitmap1.bmp" />
     <Content Include="IMAGES\Lideres\FRA_leader.png" />
     <Content Include="IMAGES\Lideres\GER_Leader.png" />
+    <None Include="Resources\FranceAnarquista.jpg" />
+    <None Include="Resources\frenchProtest.jpg" />
+    <None Include="Resources\Flag_of_France.png" />
+    <None Include="Resources\TankEvent.png" />
     <None Include="Resources\[The Fire Rises] - Ode To Joy - Anthem of Fehlinger%27s European Union %28Alt History%29.wav" />
     <None Include="Resources\Ode an die Freude - Anthem of The European Union [GERMAN] %281%29.mp3" />
     <None Include="Resources\LinhaF2.png" />
@@ -149,6 +210,10 @@
     <None Include="Resources\Captura de ecrã 2026-05-28 084442.png" />
     <None Include="Resources\EuW_SuperEvent.png" />
     <None Include="Resources\Captura de ecrã 2026-06-02 122127.png" />
+    <None Include="Resources\eventTank.jpg" />
+    <None Include="Resources\Captura de ecrã 2026-06-25 103925.png" />
+    <None Include="Resources\Europe_War.mp3" />
+    <None Include="Resources\Captura de ecrã 2026-06-29 095922.png" />
     <Content Include="Resources\FalgEU.png" />
     <None Include="Resources\Captura de ecrã 2026-05-14 113639.png" />
     <None Include="Resources\GER_Leader.png" />

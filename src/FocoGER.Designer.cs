@@ -271,9 +271,9 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(292, 425);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(134, 13);
+            this.label7.Size = new System.Drawing.Size(128, 13);
             this.label7.TabIndex = 17;
-            this.label7.Text = "Guerra com os Anarquistas";
+            this.label7.Text = "Guerra com os Franceses";
             // 
             // LinhaF5
             // 

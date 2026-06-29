@@ -1,0 +1,72 @@
+C:\Users\2224100\OneDrive - Escola Digital\idea\idea\bin\Debug\idea.exe.config
+C:\Users\2224100\OneDrive - Escola Digital\idea\idea\bin\Debug\idea.exe
+C:\Users\2224100\OneDrive - Escola Digital\idea\idea\bin\Debug\idea.pdb
+C:\Users\2224100\OneDrive - Escola Digital\idea\idea\obj\Debug\Projeto2Final.csproj.AssemblyReference.cache
+C:\Users\2224100\OneDrive - Escola Digital\idea\idea\obj\Debug\idea.exe.config
+C:\Users\2224100\OneDrive - Escola Digital\idea\idea\obj\Debug\idea.Form1.resources
+C:\Users\2224100\OneDrive - Escola Digital\idea\idea\obj\Debug\idea.Form2.resources
+C:\Users\2224100\OneDrive - Escola Digital\idea\idea\obj\Debug\idea.Properties.Resources.resources
+C:\Users\2224100\OneDrive - Escola Digital\idea\idea\obj\Debug\Projeto2Final.csproj.GenerateResource.cache
+C:\Users\2224100\OneDrive - Escola Digital\idea\idea\obj\Debug\Projeto2Final.csproj.CoreCompileInputs.cache
+C:\Users\2224100\OneDrive - Escola Digital\idea\idea\obj\Debug\idea.exe
+C:\Users\2224100\OneDrive - Escola Digital\idea\idea\obj\Debug\idea.pdb
+C:\Users\2224100\OneDrive - Escola Digital\idea\idea\obj\Debug\idea.Form3.resources
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\obj\Debug\Projeto2Final.csproj.AssemblyReference.cache
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\obj\Debug\idea.exe.config
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\obj\Debug\idea.exe
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\obj\Debug\idea.pdb
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\bin\Debug\idea.exe.config
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\bin\Debug\idea.exe
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\bin\Debug\idea.pdb
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\obj\Debug\idea.Form2.resources
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\obj\Debug\idea.Form3.resources
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\obj\Debug\idea.Properties.Resources.resources
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\obj\Debug\Projeto2Final.csproj.GenerateResource.cache
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\obj\Debug\Projeto2Final.csproj.CoreCompileInputs.cache
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\obj\Debug\idea.Entrar.resources
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\obj\Debug\idea.Criar.resources
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\obj\Debug\idea.EscolhaPais.resources
+C:\Users\2224100\Downloads\ProjetoFim (1)\idea\obj\Debug\idea.Foco.resources
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\bin\Debug\idea.exe.config
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\bin\Debug\idea.exe
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\bin\Debug\idea.pdb
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\Projeto2Final.csproj.AssemblyReference.cache
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.Entrar.resources
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.EscolhaPais.resources
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.Form3.resources
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.Criar.resources
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.Properties.Resources.resources
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\Projeto2Final.csproj.GenerateResource.cache
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\Projeto2Final.csproj.CoreCompileInputs.cache
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.exe
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.pdb
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.FocoGER.resources
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.MapaGER.resources
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.EU_Victory_Screen.resources
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\bin\Debug\idea.exe.config
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\bin\Debug\idea.exe
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\bin\Debug\idea.pdb
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\Projeto2Final.csproj.AssemblyReference.cache
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.Entrar.resources
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.EscolhaPais.resources
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.EU_Victory_Screen.resources
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.FocoGER.resources
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.MapaGER.resources
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.Form3.resources
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.Criar.resources
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.Properties.Resources.resources
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\Projeto2Final.csproj.GenerateResource.cache
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\Projeto2Final.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.exe
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.pdb
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.exe.config
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.Europe_War.resources
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.MapaFRA.resources
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.Europe_War.resources
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.MapaFRA.resources
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.FocoFRA.resources
+C:\Users\rafae\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.EscolhaLider.resources
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.FocoFRA.resources
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.EscolhaLider.resources
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.FranceWar.resources
+C:\Users\2224100\OneDrive - Escola Digital\Ambiente de Trabalho\idea\obj\Debug\idea.France_Victory_Screen.resources
