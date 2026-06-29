@@ -59,6 +59,12 @@
     <Compile Include="EscolhaPais.Designer.cs">
       <DependentUpon>EscolhaPais.cs</DependentUpon>
     </Compile>
+    <Compile Include="EU_Victory_Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EU_Victory_Screen.Designer.cs">
+      <DependentUpon>EU_Victory_Screen.cs</DependentUpon>
+    </Compile>
     <Compile Include="FocoGER.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EscolhaPais.resx">
       <DependentUpon>EscolhaPais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EU_Victory_Screen.resx">
+      <DependentUpon>EU_Victory_Screen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FocoGER.resx">
       <DependentUpon>FocoGER.cs</DependentUpon>
@@ -131,10 +140,15 @@
     <Content Include="Bitmap1.bmp" />
     <Content Include="IMAGES\Lideres\FRA_leader.png" />
     <Content Include="IMAGES\Lideres\GER_Leader.png" />
+    <None Include="Resources\[The Fire Rises] - Ode To Joy - Anthem of Fehlinger%27s European Union %28Alt History%29.wav" />
+    <None Include="Resources\Ode an die Freude - Anthem of The European Union [GERMAN] %281%29.mp3" />
     <None Include="Resources\LinhaF2.png" />
     <None Include="Resources\LinhaF1.png" />
     <None Include="Resources\FlagEU0.png" />
     <None Include="Resources\EU_flag.bmp" />
+    <None Include="Resources\Captura de ecrã 2026-05-28 084442.png" />
+    <None Include="Resources\EuW_SuperEvent.png" />
+    <None Include="Resources\Captura de ecrã 2026-06-02 122127.png" />
     <Content Include="Resources\FalgEU.png" />
     <None Include="Resources\Captura de ecrã 2026-05-14 113639.png" />
     <None Include="Resources\GER_Leader.png" />
