@@ -11,14 +11,6 @@ Tag_Pais VARCHAR (3) UNIQUE NOT NULL,
 Nome_Pais VARCHAR (20)NOT NULL
 );
 
-CREATE TABLE Pontos 
-(
-Id_Pontos INT PRIMARY KEY IDENTITY (1,1),
-Nome VARCHAR(5) NOT NULL,
-Pais VARCHAR (3)NOT NULL,	
-Conta VARCHAR (20)NOT NULL,
-Pontuacao INT,
-
 CONSTRAINT FK_Pontos_Pais
     FOREIGN KEY (Pais) REFERENCES Pais(Tag_Pais)
 );
@@ -42,11 +34,59 @@ Id_Pontos INT PRIMARY KEY IDENTITY (1,1),
 Nome VARCHAR(20) NOT NULL,
 Pass VARCHAR (20)NOT NULL,);
 
-
-
 INSERT INTO Pais (Tag_Pais, Nome_Pais) VALUES
-('EUS', 'União Europeia'),
-('FRC', 'Franca Comunista')
+('GER', 'Germany'),
+('FRA', 'France'),
+('BEL', 'Belgium'),
+('LUX', 'Luxembourg'),
+('SWI', 'Switzerland'),
+('NED', 'Netherlands'),
+('MRK', 'Denmark'),
+('AUS', 'Austria');
+GO
+
+INSERT INTO Provincias (Nome, Controlador, N_Tropas, Paz_War) VALUES
+('Corsica', 'FRA', 0, 0),
+('Paris', 'FRA', 7, 0),
+('Calais', 'FRA', 3, 0),
+('Normandy', 'FRA', 1, 0),
+('Orleans', 'FRA', 4, 0),
+('Brittany', 'FRA', 0, 0),
+('Metz', 'FRA', 35, 0),
+('Strasbourg', 'FRA', 0, 0),
+('Nantes', 'FRA', 5, 0),
+('Bordeux', 'FRA', 0, 0),
+('Massif', 'FRA', 0, 0),
+('Toulouse', 'FRA', 0, 0),
+('Marseille', 'FRA', 0, 0),
+('Nice', 'FRA', 0, 0),
+('Wallonia', 'BEL', 0, 0),
+('Brussels', 'BEL', 0, 0),
+('Flanders', 'BEL', 0, 0),
+('Liege', 'BEL', 0, 0),
+('Luxembourg', 'LUX', 0, 0),
+('Amsterdam', 'NED', 0, 0),
+('Rotterdam', 'NED', 0, 0),
+('Eindhoven', 'NED', 0, 0),
+('Saarland', 'GER', 0, 0),
+('Rhine do Sul', 'GER', 6, 0),
+('Rhine do Norte', 'GER', 0, 0),
+('Frankfurt', 'GER', 0, 0),
+('Bavaria', 'GER', 0, 0),
+('Baden-Wurttenberg', 'GER', 2, 0),
+('Dresden', 'GER', 4, 0),
+('Bradenbourg', 'GER', 0, 0),
+('Schwern', 'GER', 0, 0),
+('Kiel', 'GER', 1, 0),
+('Hambourg', 'GER', 2, 0),
+('Berlin', 'GER', 1, 0),
+('Magdebourg', 'GER', 0, 0),
+('Bremen', 'GER', 0, 0),
+('Austria', 'AUS', 0, 0),
+('Geneva', 'SWI', 0, 0),
+('Berne', 'SWI', 0, 0),
+('Mark', 'MRK', 0, 0);
+GO
 
 
 
