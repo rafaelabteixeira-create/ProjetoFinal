@@ -24,4 +24,3 @@ C:\Users\2224100\OneDrive - Escola Digital\ProjetoFinal\src\obj\Debug\idea.exe.m
 C:\Users\2224100\OneDrive - Escola Digital\ProjetoFinal\src\obj\Debug\idea.application
 C:\Users\2224100\OneDrive - Escola Digital\ProjetoFinal\src\obj\Debug\idea.exe
 C:\Users\2224100\OneDrive - Escola Digital\ProjetoFinal\src\obj\Debug\idea.pdb
-C:\Users\2224100\OneDrive - Escola Digital\ProjetoFinal\src\obj\Debug\idea.exe.config
