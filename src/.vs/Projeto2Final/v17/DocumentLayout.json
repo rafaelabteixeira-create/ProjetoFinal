@@ -1,90 +1,101 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\",
+  "WorkspaceRootPath": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|c:\\users\\2224100\\onedrive - escola digital\\ambiente de trabalho\\idea\\mapafra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|c:\\users\\2224100\\onedrive - escola digital\\documentos\\github\\projetofinal\\src\\mapafra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:mapafra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\mapager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:mapager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Projeto2Final||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\focofra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|c:\\users\\2224100\\onedrive - escola digital\\documentos\\github\\projetofinal\\src\\classdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:classdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\focofra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:focofra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\focofra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\focofra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:focofra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\france_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:france_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\mapager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:mapager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\france_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:france_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\francewar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:francewar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\mapafra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\mapafra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:mapafra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\mapager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:mapager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\francewar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:francewar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\eu_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:eu_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\europe_war.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:europe_war.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\focoger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:focoger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\criar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:criar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\criar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:criar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\entrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:entrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\entrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:entrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\focoger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:focoger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\francewar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:francewar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\mapager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\mapager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:mapager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\escolhapais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\france_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:france_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\france_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:france_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\mapager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:mapager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\eu_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:eu_victory_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\europe_war.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:europe_war.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\focoger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:focoger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\criar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:criar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\criar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:criar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\entrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:entrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\entrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:entrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\focoger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:focoger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\francewar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:francewar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\escolhapais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:escolhapais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|c:\\users\\2224100\\onedrive - escola digital\\documentos\\github\\projetofinal\\src\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{4C5F41FF-9D2A-47D1-980D-2596161905FB}|Projeto2Final.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -100,11 +111,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MapaFRA.cs",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaFRA.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\MapaFRA.cs",
               "RelativeDocumentMoniker": "MapaFRA.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaFRA.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\MapaFRA.cs",
               "RelativeToolTip": "MapaFRA.cs",
-              "ViewState": "AgIAAKcBAAAAAAAAAAAAALwBAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAJEDAAAAAAAAAAAAAKQDAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-26T14:11:28.014Z",
               "IsPinned": true,
@@ -112,138 +123,185 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FocoFRA.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FocoFRA.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\FocoFRA.cs",
               "RelativeDocumentMoniker": "FocoFRA.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FocoFRA.cs [Design]",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\FocoFRA.cs [Design]",
               "RelativeToolTip": "FocoFRA.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-29T09:10:39.033Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MapaGER.cs",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaGER.cs",
-              "RelativeDocumentMoniker": "MapaGER.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaGER.cs",
-              "RelativeToolTip": "MapaGER.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAALcDAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T11:27:24.064Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FocoFRA.cs",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FocoFRA.cs",
-              "RelativeDocumentMoniker": "FocoFRA.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FocoFRA.cs",
-              "RelativeToolTip": "FocoFRA.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDYAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T09:13:49.008Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "France_Victory_Screen.cs",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\France_Victory_Screen.cs",
-              "RelativeDocumentMoniker": "France_Victory_Screen.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\France_Victory_Screen.cs",
-              "RelativeToolTip": "France_Victory_Screen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIAwwBUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T13:13:01.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FranceWar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FranceWar.cs",
-              "RelativeDocumentMoniker": "FranceWar.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FranceWar.cs [Design]",
-              "RelativeToolTip": "FranceWar.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T09:05:50.8Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MapaFRA.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaFRA.cs",
-              "RelativeDocumentMoniker": "MapaFRA.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaFRA.cs [Design]",
-              "RelativeToolTip": "MapaFRA.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T09:06:14.615Z"
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "France_Victory_Screen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\France_Victory_Screen.cs",
-              "RelativeDocumentMoniker": "France_Victory_Screen.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\France_Victory_Screen.cs [Design]",
-              "RelativeToolTip": "France_Victory_Screen.cs [Design]",
+              "Title": "MapaGER.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\MapaGER.cs",
+              "RelativeDocumentMoniker": "MapaGER.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\MapaGER.cs",
+              "RelativeToolTip": "MapaGER.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAYwGsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T13:05:42.699Z"
+              "WhenOpened": "2026-06-23T11:27:24.064Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MapaGER.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaGER.cs",
-              "RelativeDocumentMoniker": "MapaGER.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaGER.cs [Design]",
-              "RelativeToolTip": "MapaGER.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "FocoFRA.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\FocoFRA.cs",
+              "RelativeDocumentMoniker": "FocoFRA.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\FocoFRA.cs",
+              "RelativeToolTip": "FocoFRA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T09:45:23.074Z"
+              "WhenOpened": "2026-06-29T09:13:49.008Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClassDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\ClassDatabase.cs",
+              "RelativeDocumentMoniker": "ClassDatabase.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\ClassDatabase.cs",
+              "RelativeToolTip": "ClassDatabase.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T07:58:03.474Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Projeto2Final",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\Projeto2Final.csproj",
+              "RelativeDocumentMoniker": "Projeto2Final.csproj",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\Projeto2Final.csproj",
+              "RelativeToolTip": "Projeto2Final.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-30T09:31:22.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FranceWar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\FranceWar.cs",
+              "RelativeDocumentMoniker": "FranceWar.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\FranceWar.cs [Design]",
+              "RelativeToolTip": "FranceWar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T09:05:50.8Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MapaFRA.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\MapaFRA.cs",
+              "RelativeDocumentMoniker": "MapaFRA.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\MapaFRA.cs [Design]",
+              "RelativeToolTip": "MapaFRA.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T09:06:14.615Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "France_Victory_Screen.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\France_Victory_Screen.cs",
+              "RelativeDocumentMoniker": "France_Victory_Screen.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\France_Victory_Screen.cs",
+              "RelativeToolTip": "France_Victory_Screen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIAwwBUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T13:13:01.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MapaGER.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\MapaGER.Designer.cs",
+              "RelativeDocumentMoniker": "MapaGER.Designer.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\MapaGER.Designer.cs",
+              "RelativeToolTip": "MapaGER.Designer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T14:02:51.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "France_Victory_Screen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\France_Victory_Screen.cs",
+              "RelativeDocumentMoniker": "France_Victory_Screen.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\France_Victory_Screen.cs [Design]",
+              "RelativeToolTip": "France_Victory_Screen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T13:05:42.699Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MapaGER.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\MapaGER.cs",
+              "RelativeDocumentMoniker": "MapaGER.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\MapaGER.cs [Design]",
+              "RelativeToolTip": "MapaGER.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T09:45:23.074Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "EU_Victory_Screen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\EU_Victory_Screen.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\EU_Victory_Screen.cs",
               "RelativeDocumentMoniker": "EU_Victory_Screen.cs",
               "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\EU_Victory_Screen.cs [Design]",
-              "RelativeToolTip": "EU_Victory_Screen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Ambiente de Trabalho\\idea\\EU_Victory_Screen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-29T13:05:48.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Europe_War.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\Europe_War.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\Europe_War.cs",
               "RelativeDocumentMoniker": "Europe_War.cs",
               "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\Europe_War.cs [Design]",
-              "RelativeToolTip": "Europe_War.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Ambiente de Trabalho\\idea\\Europe_War.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-29T13:05:48.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\Form3.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\Form3.cs",
               "RelativeDocumentMoniker": "Form3.cs",
               "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\Form3.cs [Design]",
-              "RelativeToolTip": "Form3.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Ambiente de Trabalho\\idea\\Form3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-29T13:02:01.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Criar.cs",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\Criar.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\Criar.cs",
               "RelativeDocumentMoniker": "Criar.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\Criar.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\Criar.cs",
               "RelativeToolTip": "Criar.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAwwGcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -251,33 +309,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Criar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\Criar.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\Criar.cs",
               "RelativeDocumentMoniker": "Criar.cs",
               "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\Criar.cs [Design]",
-              "RelativeToolTip": "Criar.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Ambiente de Trabalho\\idea\\Criar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-29T12:45:22.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "FocoGER.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FocoGER.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\FocoGER.cs",
               "RelativeDocumentMoniker": "FocoGER.cs",
               "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FocoGER.cs [Design]",
-              "RelativeToolTip": "FocoGER.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Ambiente de Trabalho\\idea\\FocoGER.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-23T08:44:56.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Entrar.cs",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\Entrar.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\Entrar.cs",
               "RelativeDocumentMoniker": "Entrar.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\Entrar.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\Entrar.cs",
               "RelativeToolTip": "Entrar.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAADgv0gAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -285,22 +343,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Entrar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\Entrar.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\Entrar.cs",
               "RelativeDocumentMoniker": "Entrar.cs",
               "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\Entrar.cs [Design]",
-              "RelativeToolTip": "Entrar.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Ambiente de Trabalho\\idea\\Entrar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-29T12:30:18.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "FocoGER.cs",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FocoGER.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\FocoGER.cs",
               "RelativeDocumentMoniker": "FocoGER.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FocoGER.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\FocoGER.cs",
               "RelativeToolTip": "FocoGER.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAqwFQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -308,35 +366,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "FranceWar.cs",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FranceWar.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\FranceWar.cs",
               "RelativeDocumentMoniker": "FranceWar.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\FranceWar.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\FranceWar.cs",
               "RelativeToolTip": "FranceWar.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T09:08:54.144Z"
+              "WhenOpened": "2026-06-29T09:08:54.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MapaGER.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaGER.Designer.cs",
-              "RelativeDocumentMoniker": "MapaGER.Designer.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\MapaGER.Designer.cs",
-              "RelativeToolTip": "MapaGER.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T14:02:51.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "EscolhaPais.cs",
-              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\EscolhaPais.cs",
+              "DocumentMoniker": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\EscolhaPais.cs",
               "RelativeDocumentMoniker": "EscolhaPais.cs",
-              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Ambiente de Trabalho\\idea\\EscolhaPais.cs",
+              "ToolTip": "C:\\Users\\2224100\\OneDrive - Escola Digital\\Documentos\\GitHub\\ProjetoFinal\\src\\EscolhaPais.cs",
               "RelativeToolTip": "EscolhaPais.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

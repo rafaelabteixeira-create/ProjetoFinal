@@ -23,6 +23,8 @@ namespace idea
 
         private ProvinceData provinciasSelecionada = null;
 
+        int leaderId;
+        int flagId;
         int turnos = 0;
         int limite = 0;
         int estabilidade = 40;
@@ -442,7 +444,7 @@ namespace idea
                 CorP = Color.LightGray,
                 CorOriginal = Color.LightGray,
                 Value = 2,
-                War = false,    
+                War = false,
                 Vizinhos = new List<ProvinceData>()
             });
 
@@ -523,10 +525,6 @@ namespace idea
                 Vizinhos = new List<ProvinceData>()
             });
         }
-
-
-
-
         private void DefinirVizinhos()
         {
             provinces["Paris"].Vizinhos.Add(provinces["Calais"]);
@@ -971,7 +969,7 @@ namespace idea
                     }
                     if (db.Conf(5, 0) == 1)
                     {
-                        if (prov.CorP == Color.GhostWhite|| prov.CorP == Color.OrangeRed)
+                        if (prov.CorP == Color.GhostWhite || prov.CorP == Color.OrangeRed)
                         {
                             prov.CorP = Color.LightBlue;
                             prov.Value = 7;
@@ -994,6 +992,8 @@ namespace idea
                     DivBotao = false;
                     if (prov.CorP == Color.LightBlue && prov.Name == "Berlin")
                     {
+                        France_Victory_Screen france_V = new France_Victory_Screen();
+                        france_V.Show();
                         warW = true;
                         Hino.Play();
                     }
@@ -1001,13 +1001,22 @@ namespace idea
                     try
                     {
                         GuardarProvincias(provinces);
+
+
                     }
                     catch (Exception ex)
                     {
                         MessageBox.Show($"\nErro: {ex.Message}");
                     }
                 }
+                try
+                {
 
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"\nErro: {ex.Message}");
+                }
 
             }
         }
@@ -1018,13 +1027,43 @@ namespace idea
         {
             try
             {
-                using (var conn = new SqlConnection(connectionString))
+                using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
-                    string sql = "SELECT Nome, Controlador, N_Tropas, Paz_War FROM Provincias";
 
-                    using (var cmd = new SqlCommand(sql, conn))
-                    using (var reader = cmd.ExecuteReader())
+                 
+                    string sqlState = @"
+                SELECT Turnos, LeaderId, FlagId 
+                FROM GameState 
+                WHERE Id = 1";
+
+                    int leaderId = 0;
+                    int flagId = 0;
+
+                    using (SqlCommand cmd = new SqlCommand(sqlState, conn))
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            turnos = reader.GetInt32(0);
+                            leaderId = reader.GetInt32(1);
+                            flagId = reader.GetInt32(2);
+                        }
+                    }
+
+                  
+                    button1.Text = "Turno: " + turnos;
+
+                   
+                    AplicarImagens();
+
+
+                    string sql = @"
+                SELECT Nome, Controlador, N_Tropas, Paz_War 
+                FROM Provincias";
+
+                    using (SqlCommand cmd = new SqlCommand(sql, conn))
+                    using (SqlDataReader reader = cmd.ExecuteReader())
                     {
                         while (reader.Read())
                         {
@@ -1038,22 +1077,19 @@ namespace idea
                                 p.Value = tropas;
                                 p.War = emGuerra;
                                 p.Controlador = controlador;
-
-                                if (controlador != null)
-                                {
-                                    Color cor = db.TagParaCor(controlador);
-                                    p.CorP = cor;
-                                }
+                                p.CorP = db.TagParaCor(controlador);
                             }
                         }
                     }
+
+                   
+                    mapPanel.Invalidate();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"\nErro: {ex.Message}");
+                MessageBox.Show("Erro ao carregar províncias: " + ex.Message);
             }
-
         }
         public void GuardarProvincias(Dictionary<string, ProvinceData> provinces)
         {
@@ -1062,11 +1098,28 @@ namespace idea
                 conn.Open();
                 using (var transaction = conn.BeginTransaction())
                 {
-                    string sql = @"UPDATE Provincias 
-                            SET Controlador = @Controlador, 
-                                N_Tropas = @N_Tropas, 
-                                Paz_War = @Paz_War 
-                            WHERE Nome = @Nome";
+                    string sqlGameState = @"
+                    UPDATE GameState
+                    SET Turnos = @Turnos,
+                        leaderId = @LeaderId,
+                        flagID = @FlagId
+                    WHERE Id = 1";
+
+                    using (var cmd = new SqlCommand(sqlGameState, conn, transaction))
+                    {
+                        cmd.Parameters.AddWithValue("@Turnos", turnos);
+                        cmd.Parameters.AddWithValue("@leaderId", leaderId);
+                        cmd.Parameters.AddWithValue("@flagID", flagId);
+
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    string sqlProvince = @"
+                    UPDATE Provincias 
+                    SET Controlador = @Controlador, 
+                        N_Tropas = @N_Tropas, 
+                        Paz_War = @Paz_War 
+                    WHERE Nome = @Nome";
 
                     foreach (var kvp in provinces)
                     {
@@ -1074,12 +1127,13 @@ namespace idea
                         ProvinceData p = kvp.Value;
                         string tag = db.CorParaTag(p.CorP);
 
-                        using (var cmd = new SqlCommand(sql, conn, transaction))
+                        using (var cmd = new SqlCommand(sqlProvince, conn, transaction))
                         {
                             cmd.Parameters.AddWithValue("@Nome", nomeChave);
                             cmd.Parameters.AddWithValue("@Controlador", (object)tag ?? DBNull.Value);
                             cmd.Parameters.AddWithValue("@N_Tropas", p.Value);
                             cmd.Parameters.AddWithValue("@Paz_War", p.War);
+
                             cmd.ExecuteNonQuery();
                         }
                     }
@@ -1088,7 +1142,49 @@ namespace idea
                 }
             }
         }
+        public void AplicarImagens()
+        {
 
+            if (leaderId == 1)
+            {
+                Lider.Image = Properties.Resources.FRA_leader;
+            }
+
+            else if (leaderId == 2)
+            {
+                Lider.Image = Properties.Resources.GER_Leader;
+            }
+
+            else if (leaderId == 3)
+            {
+                Lider.Image = Properties.Resources.guhnther_portrait;
+            }
+
+            else if (leaderId == 3)
+            {
+                Lider.Image = Properties.Resources.Klaus_portrait;
+            }
+            else if (leaderId == 3)
+            {
+                Lider.Image = Properties.Resources.Ursula_Portrait;
+            }
+
+
+
+
+
+            if (flagId == 1)
+                pictureBox2.Image = Properties.Resources.Flag_of_France;
+
+            else if (flagId == 2)
+                pictureBox2.Image = Properties.Resources.Captura_de_ecrã_2026_05_14_113639;
+
+            else if (flagId == 3)
+                pictureBox2.Image = Properties.Resources.FlagEUON;
+
+            else if(flagId == 4)
+                pictureBox2.Image = Properties.Resources.FranceAnarquista;
+            }
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();

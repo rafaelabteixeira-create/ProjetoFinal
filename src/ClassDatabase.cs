@@ -39,7 +39,7 @@ namespace idea
             if (cor == Color.OrangeRed) return "MRK";
             return null;
         }
-
+        
         public Color TagParaCor(string tag)
         {
             switch (tag)

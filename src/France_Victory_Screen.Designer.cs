@@ -38,7 +38,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.SlateBlue;
             this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(-4, -8);
+            this.button2.Location = new System.Drawing.Point(-35, -10);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(595, 33);
             this.button2.TabIndex = 10;
